@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+#dijinda{
+    color: red;
+}
+
+#daewang{
+    color: brown;
+}
+
+html{
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    margin-bottom: 60px;
+    font-family: 'Noto Sans KR', sans-serif;
+    word-break: keep-all;
+}
+
+main{
+    padding: 20px 20px;
+}
+
+.center-screen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.outsidenav{
+    box-sizing: content-box;
+    background-color: rgb(52, 58, 64);
+    width: 100%;
+}
+
+.jumbotron h1{
+    font-weight: bold;
+}
+
+.jumbotron img{
+    height: auto;
+}
+
+
+.footer{
+    box-sizing: content-box;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 60px;
+    background-color: lightgray;
+    word-break: keep-all;
+}
+
+.footer p{
+    font-size: 13px;
+}
+
+@media(max-width: 768px){
+    main{
+        padding: 20px 5px;
+    }
+
+    .jumbotron{
+        text-align: center;
+    }
+
+    .jumbotron p{
+        font-size: 0.95rem;
+    }
+
+        .lead {
+            font-weight: bold;
+        }
+}
