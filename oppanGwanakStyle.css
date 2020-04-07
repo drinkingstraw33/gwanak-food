@@ -36,12 +36,8 @@ main{
     width: 100%;
 }
 
-.jumbotron h1{
+.card h1{
     font-weight: bold;
-}
-
-.jumbotron img{
-    height: auto;
 }
 
 
@@ -63,16 +59,4 @@ main{
     main{
         padding: 20px 5px;
     }
-
-    .jumbotron{
-        text-align: center;
-    }
-
-    .jumbotron p{
-        font-size: 0.95rem;
-    }
-
-        .lead {
-            font-weight: bold;
-        }
 }
