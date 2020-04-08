@@ -67,7 +67,11 @@ nav .navbar-brand{
     word-break: keep-all;
 }
 
-.footer p{
+.text-center {
+    font-size: 0.8rem;
+}
+
+.footer p {
     font-size: 0.8rem;
 }
 
