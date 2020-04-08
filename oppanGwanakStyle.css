@@ -24,11 +24,15 @@ main{
     padding: 20px 20px;
 }
 
+footer{
+    padding: 0 20px;
+}
+
 .page-header .display-4{
     font-weight: 500;
 }
 
-.text-center h1{
+.center-screen h1{
     font-weight: 700;
 }
 
@@ -44,7 +48,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 75vh;
 }
 
 nav .navbar-brand{
@@ -67,7 +71,7 @@ nav .navbar-brand{
     word-break: keep-all;
 }
 
-.text-center {
+.center-screen p {
     font-size: 0.8rem;
 }
 
@@ -75,12 +79,34 @@ nav .navbar-brand{
     font-size: 0.8rem;
 }
 
+.titlehead{
+    font-weight: 700;
+}
+
 @media(max-width: 768px){
     main{
         padding: 20px 5px;
     }
 
-    .card .lead{
+    footer{
+        padding: 0px 5px;
+    }
+
+    .titlehead .lead{
         font-size: 1rem;
+    }
+
+    .page-header .lead{
+        font-size: 1.2rem;
+    }
+
+    .center-screen .lead{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 576px){
+    .center-screen{
+        height: 65vh;
     }
 }
