@@ -1,88 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
-#dijinda{
+#dijinda {
     color: red;
 }
 
-#daewang{
+#daewang {
     color: brown;
 }
 
-html{
+html {
     min-height: 100%;
     position: relative;
 }
 
-body{
+body {
     margin-bottom: 60px;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 300;
     word-break: keep-all;
+    background-color: whitesmoke;
 }
 
-main{
+main {
     padding: 20px 20px;
 }
 
-footer{
+footer {
     padding-left: 20px;
 }
 
-.page-header .display-4{
+.page-header .display-4 {
     font-weight: 700;
 }
 
-.center-screen h1{
+.center-screen h1 {
     font-weight: 700;
 }
 
-.page-header{
+.page-header {
     background-color: #ffeeba;
 }
 
-.page-header p{
+.page-header p {
     font-weight: 400;
 }
 
-.card h1{
+.card h1 {
     font-weight: 700;
 }
 
-.card .lead{
+.card .lead {
     font-weight: 400;
 }
 
-.center-screen{
+.center-screen {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 75vh;
 }
 
-nav{
+nav {
     background-color: gold;
 }
 
-nav .navbar-brand{
+nav .navbar-brand {
     font-weight: 700;
     font-size: 1.5rem;
 }
 
-nav ul li a{
+nav ul li a {
     font-size: 1rem;
 }
 
-nav .active{
+nav .active {
     font-weight: 500;
 }
 
-.outsidenav{
+.outsidenav {
     box-sizing: border-box;
     background-color: gold;
     width: 100%;
 }
 
-.footer{
+.footer {
     box-sizing: border-box;
     position: absolute;
     bottom: 0;
@@ -100,43 +101,43 @@ nav .active{
     font-size: 0.8rem;
 }
 
-.titlehead{
+.titlehead {
     font-weight: 700;
 }
 
-@media(max-width: 768px){
-    main{
+@media(max-width: 768px) {
+    main {
         padding: 20px 5px;
     }
 
-    footer{
+    footer {
         padding-left: 5px;
     }
 
-    .titlehead .lead{
+    .titlehead .lead {
         font-size: 1rem;
     }
 
-    .page-header .lead{
+    .page-header .lead {
         font-size: 1.2rem;
     }
 
-    .center-screen h1{
+    .center-screen h1 {
         font-size: 2rem;
     }
 
-    .center-screen .lead{
+    .center-screen .lead {
         font-size: 1rem;
     }
 
 
 }
 
-@media(max-width: 576px){
-    .center-screen{
+@media(max-width: 576px) {
+    .center-screen {
         height: 65vh;
     }
-    
+
     .page-header .display-4 {
         font-size: 3.3rem;
     }
